@@ -1,0 +1,21 @@
+{
+  "name": "Axis Launcher",
+  "short_name": "Axis",
+  "start_url": "/axis/",
+  "display": "standalone",
+  "background_color": "#062435",
+  "theme_color": "#08293d",
+  "description": "A WIP launcher project for eaglercraft and soon geometry dash",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
