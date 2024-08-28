@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./fontawesomepro6.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="preload" href="./clientsdata.json" as="fetch" type="application/json">
+    <link rel="manifest" href="manifest.json"> <!-- For PWA -->
     <style>
       :root {
         --bg: linear-gradient(120deg, #072536, #010b1c);
@@ -140,6 +141,7 @@
       </div>
     </div>
     <!-- SCRIPTS -->
+    <script src="script.js"></script> <!-- For PWA -->
     <script>
       var latestVersion = "u35";
       function launchLatestVersion() {
