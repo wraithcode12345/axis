@@ -1,4 +1,12 @@
-[
+[    
+    {
+        "id": "194",
+        "name": "Eaglercraft 1.9.4", 
+        "description": "1.9.4 is finally here!", 
+        "icon": "overworld",
+        "info": "YIPPEE!",
+        "url": "/eagler/194/"
+    }, 
     {
         "id": "resent40",
         "name": "Resent Client 4.0", 
