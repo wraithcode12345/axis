@@ -3,7 +3,7 @@
   <head>
     <title>Axis Launcher</title>
     <link rel="icon" href="./logo.png">
-    <link rel="stylesheet" href="./fontawesomepro6.css">
+    <link rel="stylesheet" href="/assets/text/css/wicons.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="preload" href="./clientsdata.json" as="fetch" type="application/json">
     <link rel="manifest" href="manifest.json"> <!-- For PWA -->
@@ -118,7 +118,7 @@
             <img class="mcicon" src="./crafting.png" style="font-size: 40px; margin: 5px;">
             <p>Browse Clients...</p>
             <div class="iwtnt"></div>
-            <i class="fa-regular fa-books"></i>
+            <i class="wicon wicon-book"></i>
           </button>
           <p class="sl">Saved Clients</p>
           <div id="savedclients">
@@ -134,7 +134,7 @@
     </div>
     <!-- BROWSE CLIENTS -->
     <div id="clientlibrary">
-      <button class="exitlibrary" onclick="toggleLibrary()"><i class="fa-light fa-xmark"></i></button>
+      <button class="exitlibrary" onclick="toggleLibrary()"><i class="wicon wicon-xmark"></i></button>
       <input id="searchclients" type="text" placeholder="Search...">
       <div id="clientlist">
         <!-- javascript adds items here -->
@@ -247,8 +247,8 @@
                     <img class='mcicon' src='${iconSrc}' style='font-size: 40px; margin: 5px;'>
                     <p class='title'>${clientData.name}</p>
                     <p class='desc'>${clientData.description || "No description available"}</p>
-                    <button class="remove-btn"><i class="fa-regular fa-trash"></i></button>
-                    <i class="fa-regular fa-circle-info"></i>
+                    <button class="remove-btn"><i class="wicon wicon-trash"></i></button>
+                    <i class="wicon wicon-circle-info"></i>
                 `;
                 container.appendChild(item);
 
